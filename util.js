@@ -25,8 +25,7 @@ const generateArticle = ({
 });
 
 module.exports = {
-  mapArticle: generateArticle,
-  getRandomFirstName: () => faker.name.firstName()
+  mapArticle: generateArticle
 };
 
 // module.exports = {
